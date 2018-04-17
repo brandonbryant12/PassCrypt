@@ -1,1 +1,1 @@
-Just a lil' blockchain application.
+Website repository for PassCrypt.io
