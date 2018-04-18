@@ -45,10 +45,10 @@ h6 {
 .bg-primary {
   background-image: linear-gradient(270deg, #5c3552, #4d385d, #3f3b69);
   background-size: 400% 400%;
-  -webkit-animation: PurpleGradient 5s ease infinite;
-  -moz-animation: PurpleGradient 5s ease infinite;
-  -o-animation: AnimationName 5s ease infinite;
-  animation: PurpleGradient 5s ease infinite;
+  -webkit-animation: PurpleGradient 12s ease infinite;
+  -moz-animation: PurpleGradient 12s ease infinite;
+  -o-animation: AnimationName 12s ease infinite;
+  animation: PurpleGradient 12s ease infinite;
 }
 
 .bg-darker {
@@ -142,10 +142,10 @@ img::-moz-selection {
   #mainNav {
     background-image: linear-gradient(270deg, #5c3552, #4d385d, #3f3b69);
     background-size: 400% 400%;
-    -webkit-animation: PurpleGradient 5s ease infinite;
-    -moz-animation: PurpleGradient 5s ease infinite;
-    -o-animation: AnimationName 5s ease infinite;
-    animation: PurpleGradient 5s ease infinite;
+    -webkit-animation: PurpleGradient 12s ease infinite;
+    -moz-animation: PurpleGradient 12s ease infinite;
+    -o-animation: AnimationName 12s ease infinite;
+    animation: PurpleGradient 12s ease infinite;
   }
 
   #mainNav .navbar-brand {
@@ -332,6 +332,27 @@ header.masthead p {
   }
 }
 
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #31538F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #294675;
+  text-decoration: none;
+}
+
 .text-primary {
   color: #4d385d !important;
 }
@@ -360,4 +381,14 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+
+.btn-info {
+  background-color: #31538F;
+}
+
+.btn-info:hover {
+  background-color: #294675;
+  text-decoration: none;
 }
