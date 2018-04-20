@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Verdana', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -209,7 +209,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/computer.jpg");
+  background-image: url("../img/computer2.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -218,14 +218,7 @@ header.masthead {
 }
 
 strong {
-  background-image: -webkit-linear-gradient(left, #5c3552, #4d385d, #3f3b69); /* For Chrome and Safari */
-  background-image: -moz-linear-gradient(left, #5c3552, #4d385d, #3f3b69); /* For old Fx (3.6 to 15) */
-  background-image: -ms-linear-gradient(left, #5c3552, #4d385d, #3f3b69); /* For pre-releases of IE 10*/
-  background-image: -o-linear-gradient(left, #5c3552, #4d385d, #3f3b69); /* For old Opera (11.1 to 12.0) */
-  background-image: linear-gradient(to right, #5c3552, #4d385d, #3f3b69); /* Standard syntax; must be last */
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: white;
 }
 
 header.masthead hr {
